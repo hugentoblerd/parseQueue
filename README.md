@@ -141,9 +141,9 @@ Now that our service is opening a connection from our app to Parse, and our cont
 <!-- In the index file we need:  -->
 
 <!-- <ul> -->
-	<li>An input field that takes in the actual question (ng-model)</li>
-	<li>A button that submits our question into postData function in our controller (ng-click) </li>
-</ul>
+	<!-- <li>An input field that takes in the actual question (ng-model)</li> -->
+	<!-- <li>A button that submits our question into postData function in our controller (ng-click) </li> -->
+<!-- </ul> -->
 
 Once everything is in place, we should be able to ask a question from our browser and then see that question in our Parse dashboard. 
 
