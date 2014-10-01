@@ -132,15 +132,15 @@ Let's start with our service as it will be where our data begins and ends.
 
 <!-- <hr> -->
 
-After creating our POST request, we need to head over to the controller so that our users can create data on their own from the view. 
+<!-- After creating our POST request, we need to head over to the controller so that our users can create data on their own from the view.  -->
 
-In the controller create a postData function. This function will take in our question from the view and pass it into the service. Refer to the chat app, it will have a very similar function.
+<!-- In the controller create a postData function. This function will take in our question from the view and pass it into the service. Refer to the chat app, it will have a very similar function. -->
 
 Now that our service is opening a connection from our app to Parse, and our controller is ready to take data in from the view and pass it to the service, we need to get our view set up!
 
-In the index file we need: 
+<!-- In the index file we need:  -->
 
-<ul>
+<!-- <ul> -->
 	<li>An input field that takes in the actual question (ng-model)</li>
 	<li>A button that submits our question into postData function in our controller (ng-click) </li>
 </ul>
