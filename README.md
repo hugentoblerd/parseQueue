@@ -2,28 +2,28 @@
 
 Today we are going to be building a queue app similar to the one we use during class. Instead of a Firebase backend though, we will be using Parse. 
 
-Sign up for an account at Parse: http://parse.com
+<!-- Sign up for an account at Parse: http://parse.com -->
 
-Then once logged into Parse, create a new app. After the app is created you will be shown your API keys. Don't leave this page until you have set up your keys. 
+<!-- Then once logged into Parse, create a new app. After the app is created you will be shown your API keys. Don't leave this page until you have set up your keys.  -->
 
-Throughout this project, don't hesitate to check out the Parse API documentation. Being able to get answers from someone's documentation is an important skill. 
+<!-- Throughout this project, don't hesitate to check out the Parse API documentation. Being able to get answers from someone's documentation is an important skill.  -->
 
-View it here: https://parse.com/docs/rest
+Parse Docs: https://parse.com/docs/rest
 
-To do that create a file in your js folder called 'defaultHeaders.js'. Then copy your Application id and REST API key into the following code:
+<!-- To do that create a file in your js folder called 'defaultHeaders.js'. Then copy your Application id and REST API key into the following code: -->
 
-````javascript
-	var app = angular.module('parseQ');
-
-	app.factory('httpRequestInterceptor', function () {
-	  return {
-	    request: function (config) {
-	      config.headers = {'X-Parse-Application-Id': 'INSERT-YOUR-APPLICATION-ID', 'X-Parse-REST-API-Key': 'INSERT-YOUR-REST-API-KEY'}
-	      return config;
-	    }
-	  };
-	});
-````
+<!-- ````javascript -->
+	<!-- var app = angular.module('parseQ'); -->
+<!--  -->
+	<!-- app.factory('httpRequestInterceptor', function () { -->
+	  <!-- return { -->
+	    <!-- request: function (config) { -->
+	      <!-- config.headers = {'X-Parse-Application-Id': 'INSERT-YOUR-APPLICATION-ID', 'X-Parse-REST-API-Key': 'INSERT-YOUR-REST-API-KEY'} -->
+	      <!-- return config; -->
+	    <!-- } -->
+	  <!-- }; -->
+	<!-- }); -->
+<!-- ```` -->
 
 
 Parse is good because it encourages us to create a RESTful API. We will learn how to make the 4 HTTP requests with AgularJS:
