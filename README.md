@@ -151,24 +151,24 @@ Once everything is in place, we should be able to ask a question from our browse
 
 Once we are able to save our questions to our Parse database we will want to retrieve those questions so that we can see them in our view! 
 
-Let's start:
+<!-- Let's start: -->
 
-<ul>
-	<li>Create a getData function in your service</li>
-	<li>Then create a getParseData function in your controller, which will import the getData function from your service</li>
-</ul>
+<!-- <ul> -->
+	<!-- <li>Create a getData function in your service</li> -->
+	<!-- <li>Then create a getParseData function in your controller, which will import the getData function from your service</li> -->
+<!-- </ul> -->
 
-The getParseData will be an important function through our app. We will need to call it everytime we do anything else. This ensures that everytime our app changes we see those changes. 
+<!-- The getParseData will be an important function through our app. We will need to call it everytime we do anything else. This ensures that everytime our app changes we see those changes.  -->
 
-Add the getParseData function to our postData function within our controller, so that as we add a new question it calls the data.
+<!-- Add the getParseData function to our postData function within our controller, so that as we add a new question it calls the data. -->
 
 Now at the bottom of our getParseData function let's add a console.log that will show us the data it retrieves. 
 
 If we enter a question we should see an array of objects in our console. 
 
-Now you can show your in your view:
+Now you can show yours in your view:
 
-<ul>
+<!-- <ul> -->
 	<li>ng-repeat through the array showing the 'text' of each question</li>
 	<li>Make sure that now when you add a new question it shows up instantly in the list of questions.</li>
 </ul>
